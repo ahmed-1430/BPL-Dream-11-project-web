@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import usericon from '../../assets/user 1.png'
 import flagicon from '../../assets/flagicon.png'
 
-const PlayerCard = ({player,}) => {
+const PlayerCard = ({player, balance,setBalance}) => {
         const [isSelected, setIsSelected] = useState(false)
     return (
         <div className="card bg-base-100 shadow-sm p-[20px] border-1 border-zinc-100">
@@ -35,7 +35,7 @@ const PlayerCard = ({player,}) => {
                     </div>
                     <div className='flex justify-between items-center pt-2'>
                         <span className='font-bold'>{`Price: ${player.price}`}</span>
-                        <button disabled={isSelected} onClick={() => setIsSelected(true)} className='btn'>{`${isSelected === true?"Selected" : "Choose Player"}`}</button>
+                        <button disabled={isSelected} onClick={() => {setIsSelected(true), setBalance(balance-player.price)}} className='btn'>{`${isSelected === true?"Selected" : "Choose Player"}`}</button>
                     </div>                    
                 </div>
             </div>

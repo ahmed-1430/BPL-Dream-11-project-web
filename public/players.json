@@ -6,7 +6,7 @@
     "player_country": "Bangladesh",
     "playing_role": "All-rounder",
     "rating": 4.9,
-    "price": 150000,
+    "price": 1500000,
     "batting_style": "Left-handed",
     "bowling_style": "Slow left-arm orthodox"
   },
@@ -17,7 +17,7 @@
     "player_country": "Bangladesh",
     "playing_role": "Batsman",
     "rating": 4.7,
-    "price": 110000,
+    "price": 1100000,
     "batting_style": "Left-handed",
     "bowling_style": "Right-arm off-break"
   },
@@ -28,7 +28,7 @@
     "player_country": "West Indies",
     "playing_role": "All-rounder",
     "rating": 4.8,
-    "price": 135000,
+    "price": 1350000,
     "batting_style": "Right-handed",
     "bowling_style": "Right-arm fast"
   },
@@ -39,7 +39,7 @@
     "player_country": "Bangladesh",
     "playing_role": "Wicketkeeper-Batsman",
     "rating": 4.6,
-    "price": 95000,
+    "price": 950000,
     "batting_style": "Right-handed",
     "bowling_style": "N/A"
   },
@@ -50,7 +50,7 @@
     "player_country": "Afghanistan",
     "playing_role": "Bowler",
     "rating": 4.9,
-    "price": 145000,
+    "price": 1450000,
     "batting_style": "Right-handed",
     "bowling_style": "Right-arm leg-break"
   },
@@ -61,7 +61,7 @@
     "player_country": "Bangladesh",
     "playing_role": "Bowler",
     "rating": 4.5,
-    "price": 85000,
+    "price": 850000,
     "batting_style": "Right-handed",
     "bowling_style": "Right-arm fast"
   },
@@ -72,7 +72,7 @@
     "player_country": "England",
     "playing_role": "All-rounder",
     "rating": 4.5,
-    "price": 105000,
+    "price": 1005000,
     "batting_style": "Left-handed",
     "bowling_style": "Right-arm off-break"
   },
@@ -83,7 +83,7 @@
     "player_country": "Bangladesh",
     "playing_role": "Wicketkeeper-Batsman",
     "rating": 4.6,
-    "price": 98000,
+    "price": 980000,
     "batting_style": "Right-handed",
     "bowling_style": "N/A"
   },
@@ -94,7 +94,7 @@
     "player_country": "West Indies",
     "playing_role": "Bowler",
     "rating": 4.7,
-    "price": 115000,
+    "price": 1150000,
     "batting_style": "Left-handed",
     "bowling_style": "Right-arm off-break"
   },
@@ -105,7 +105,7 @@
     "player_country": "Bangladesh",
     "playing_role": "Bowler",
     "rating": 4.7,
-    "price": 100000,
+    "price": 1000000,
     "batting_style": "Left-handed",
     "bowling_style": "Left-arm medium-fast"
   },
@@ -116,7 +116,7 @@
     "player_country": "Bangladesh",
     "playing_role": "All-rounder",
     "rating": 4.5,
-    "price": 92000,
+    "price": 920000,
     "batting_style": "Right-handed",
     "bowling_style": "Right-arm off-break"
   },
@@ -127,7 +127,7 @@
     "player_country": "South Africa",
     "playing_role": "Batsman",
     "rating": 4.7,
-    "price": 125000,
+    "price": 1250000,
     "batting_style": "Right-handed",
     "bowling_style": "Right-arm leg-break"
   }

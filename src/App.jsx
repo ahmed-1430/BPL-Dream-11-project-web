@@ -4,15 +4,16 @@ import NavBar from './components/Nav-Bar/NavBar'
 import SelectedPlayers from './components/selectedPlayers/selectedPlayers'
 import { Suspense, useState } from 'react'
 
-const PlayersPromiseData = playersPromise()
+
 const playersPromise = async() => { 
     const res = await fetch('../public/players.json')    
         return  res.json()
    }
+   const PlayersPromiseData = playersPromise()
 
 function App() {
     const [toggle, settoggle] = useState(true)
-    const [balance, setBalance] = useState(6000000000)
+    const [balance, setBalance] = useState(600000000)
 
   return (
     <>
@@ -29,7 +30,7 @@ function App() {
       </div>
       {
         toggle === true ? <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>}>
-        <AvailablePlayers PlayersPromiseData={PlayersPromiseData} setBalance={setBalance}></AvailablePlayers>
+        <AvailablePlayers PlayersPromiseData={PlayersPromiseData} balance={balance} setBalance={setBalance}></AvailablePlayers>
       </Suspense>  : <SelectedPlayers></SelectedPlayers>
       }
       
