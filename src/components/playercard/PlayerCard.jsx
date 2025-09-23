@@ -1,21 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import usericon from '../../assets/user 1.png'
 import flagicon from '../../assets/flagicon.png'
 
-const PlayerCard = ({player}) => {
+const PlayerCard = ({player,}) => {
+        const [isSelected, setIsSelected] = useState(false)
     return (
-        <div class="card bg-base-100 shadow-sm p-[20px] border-1 border-zinc-100">
+        <div className="card bg-base-100 shadow-sm p-[20px] border-1 border-zinc-100">
                 <figure>
                     <img className='h-[300px] w-full object-fill'
                         src={player.player_image}
                         alt="" />
                 </figure>
-                <div class="">
+                <div className="">
                     <div className='flex gap-3 mt-2 items-center'>
                         <img src={usericon} alt="user icon" />
-                        <h2 class="card-title">{player.player_name}</h2>                        
+                        <h2 className="card-title">{player.player_name}</h2>                        
                     </div>
-                    <div class="flex justify-between items-center border-b-2 border-gray-300 pb-3">
+                    <div className="flex justify-between items-center border-b-2 border-gray-300 pb-3">
                         <div className='flex items-center gap-3 mt-2'>
                             <img src={flagicon} alt="flag icon" />
                             <p className='text-[#13131390] font-semibold'>{player.player_country}</p>
@@ -34,7 +35,7 @@ const PlayerCard = ({player}) => {
                     </div>
                     <div className='flex justify-between items-center pt-2'>
                         <span className='font-bold'>{`Price: ${player.price}`}</span>
-                        <button className='btn'>Choose Player</button>
+                        <button disabled={isSelected} onClick={() => setIsSelected(true)} className='btn'>{`${isSelected === true?"Selected" : "Choose Player"}`}</button>
                     </div>                    
                 </div>
             </div>
